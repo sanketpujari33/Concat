@@ -21,7 +21,6 @@ venv/
 *.egg-info/
 
 # Editors and OS
-.vscode/*
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
@@ -47,8 +46,6 @@ desktop.ini
 /scratch_*
 
 # Local environment
-.env
-.env.local
 
 # An FFmpeg development build unpacked locally for the linked engine
 # (headers + import libraries), pointed at with FFMPEG_DIR. Large and
@@ -58,3 +55,5 @@ desktop.ini
 # FFmpeg built for a phone by src/scripts/ffmpeg-mobile.sh: sources,
 # build trees and the installed prefixes, all machine-built.
 /src/vendor/
+config.bat
+node_modules
